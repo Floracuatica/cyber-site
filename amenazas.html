@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amenazas Comunes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ciberseguridad</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Amenazas</a></li>
+          <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- TÍTULO -->
+  <div class="container my-5">
+    <h1 class="mb-4">Amenazas Cibernéticas Comunes</h1>
+
+    <!-- ACCORDION -->
+    <div class="accordion" id="accordionAmenazas">
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#phishing">Phishing</button></h2>
+        <div id="phishing" class="accordion-collapse collapse show">
+          <div class="accordion-body">Suplantación de identidad para obtener tus claves o datos personales.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#ransomware">Ransomware</button></h2>
+        <div id="ransomware" class="accordion-collapse collapse">
+          <div class="accordion-body">Malware que bloquea tu sistema hasta que pagas un "rescate".</div>
+        </div>
+      </div>
+
+      <!-- Puedes agregar más aquí -->
+    </div>
+
+    <!-- CARRUSEL -->
+    <div id="casosCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100 bg-secondary text-white p-5">Caso real: Ataque de ransomware a una empresa de salud en 2023</div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100 bg-dark text-white p-5">Caso real: Phishing masivo a usuarios bancarios en Chile</div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#casosCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#casosCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
