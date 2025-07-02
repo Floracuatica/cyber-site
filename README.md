@@ -42,3 +42,6 @@ El sitio cuenta con tres secciones principales:
 │   └── img/
 │       └── cyber-hero.jpeg   
 └── README.md
+
+🚀 Cómo visualizar
+Puedes ver el sitio desplegado en https://cyber-site-gamma.vercel.app/
