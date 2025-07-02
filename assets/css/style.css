@@ -1,0 +1,50 @@
+/* === Estilos generales === */
+body {
+  padding-top: 70px; /* para dejar espacio al nav fijo */
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* === Títulos === */
+h1, h2 {
+  color: #0d6efd;
+}
+
+/* === Accordion === */
+.accordion-button {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+/* === Carrusel con solo texto === */
+.carousel-inner > .carousel-item > div {
+  font-size: 1.2rem;
+  text-align: center;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === Formulario === */
+form input:invalid,
+form textarea:invalid {
+  border-color: #dc3545;
+}
+form input:valid,
+form textarea:valid {
+  border-color: #198754;
+}
+
+/* === Modal test === */
+.modal-body button {
+  transition: all 0.3s ease;
+}
+.modal-body button.btn-success {
+  background-color: #198754 !important;
+  color: white;
+}
+.modal-body button.btn-danger {
+  background-color: #dc3545 !important;
+  color: white;
+}
